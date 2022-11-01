@@ -17,7 +17,41 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40px
+    margin-top: 40px;
+}
+.searchbar{
+    width: 100%;
+    max-width: 300px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.SE{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+}
+::placeholder{
+    color: black;
+}
+.searchbar button i{
+    width: 25px;
+}
+.searchbar button{
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    cursor: pointer;
 }
 .container{
     width: 40%;
@@ -26,7 +60,7 @@ body{
     margin: auto;
     left: 0;
     right: 0;
-    top: 100px;
+    top: 150px;
     padding: 30px 40px;
 }
 #task{
@@ -103,3 +137,6 @@ body{
 .completed{
     text-decoration: line-through;
 }
+/* .taskname{
+    display: list-item;    
+   } */
