@@ -137,6 +137,6 @@ body{
 .completed{
     text-decoration: line-through;
 }
-/* .taskname{
-    display: list-item;    
-   } */
+.magic{
+    display: none !important;
+}
